@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <title>Formulario</title>
+    </head>
+        <body style="background-color: rgb(127, 255, 159);"> 
+        <h1>Formulario Base</h1>
+        <h3>Por favor, rellena los siguientes campos.</h3>
+            <form method="POST" action="http://formadorestic.com/alumnosdaw/procesaformulario.php">
+                <label for="nombre">Introduzca su nombre: </label> <br>
+                <input type="text" name="nombre" id="nombre" placeholder="Introduzca su nombre"> <br>
+                <label for="email">Introduzca su email: </label> <br>
+                <input type="email" name="email" id="email" placeholder="Introduzca un email"> <br>
+                <label for="edad">Introduzca su edad: </label> <br>
+                <input type="number" name="edad" id="edad" placeholder="Introduzca su edad"> <br>
+                <input type="radio" name="mayormenor" id="mayormenor" value="Mayor"><label for="Mayor">Mayor</label><br>
+                <input type="radio" name="mayormenor" id="mayormenor" value="Menor"><label for="Menor">Menor</label><br>
+                <br>
+            <input type="submit" value="ENVIAR">
+            </form>
+        </body>
+</html> 
